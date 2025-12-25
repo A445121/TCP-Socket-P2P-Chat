@@ -1,5 +1,6 @@
 # PC 網路聊天室 (TCP/IP)
 # 提示:壓縮檔內含程式及文件，可直接下載
+# 執行方式：建議使用 Visual Studio 開啟 solution 後直接 Build/Run（.NET Framework 4.7.2）。
 
 本專案為「視窗程式設計」課程的期末報告。
 
@@ -82,7 +83,7 @@
 
 ### 客戶端操作
 
-1.  執行 `P2PChat/P2PChat/bin/Debug/P2PChat.exe` (或自行編譯專案)。
+1.  用 Visual Studio 開啟 .sln，設定 Startup project，按 F5 執行
 2.  **連線到伺服器:**
     *   在「客戶端連線」視窗中，輸入伺服器端設定的 IP 位址和通訊埠號。
     *   點擊「連線TCP」按鈕。程式將嘗試連線 (30 秒超時)。
